@@ -17,3 +17,5 @@ document.getElementById('city').addEventListener("change", async function () {
             </div>
         `;
 })
+
+document.getElementById('city').dispatchEvent(new Event('change'));
